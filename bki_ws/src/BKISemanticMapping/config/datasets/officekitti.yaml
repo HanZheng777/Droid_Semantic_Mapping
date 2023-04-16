@@ -1,0 +1,21 @@
+# Droid slam config
+
+# Map information
+# resolution: 0.3
+resolution: 0.05
+num_class: 20 # Number of classes
+
+# Sampling resolutions
+free_resolution: 100 # Free space sampling resolution
+ds_resolution: 0.1 # Downsampling factor
+
+# Information about range-finder data
+scan_num: 328 # How many scans to use
+max_range: 3 # Sensor max range (m)
+
+# Dataset information
+input_data_prefix: velodyne/
+input_label_prefix: predictions/
+lidar_pose_file: poses.txt
+query: false
+visualize: true

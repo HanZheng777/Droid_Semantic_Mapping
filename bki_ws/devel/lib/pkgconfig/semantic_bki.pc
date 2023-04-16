@@ -1,0 +1,8 @@
+prefix=/root/bki_ws/devel
+
+Name: semantic_bki
+Description: Description of semantic_bki
+Version: 0.0.1
+Cflags: -I/root/bki_ws/src/BKISemanticMapping/include
+Libs: -L${prefix}/lib 
+Requires: 
